@@ -1,19 +1,25 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@font-face { 
+	font-family: 'Ginger Bold'; 
+	src: url('fonts/F37 Ginger Bold.ttf') format('truetype');
+} 
+@font-face {
+	font-family: 'Ginger Regular';
+	src: url('fonts/F37 Ginger Regular.ttf') format('truetype');
+}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #242038;
+    background-color: #d6d6db;
+	font-family: 'Ginger Bold', Arial, sans-serif;
 }
 
 /* navbar starts here */
 
 li, a {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    color: #8D86C9;
+    font-size: 14px;
+    color: #233453;
     text-decoration: none;
 }
 
@@ -22,11 +28,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+	margin: 0px 160px 0px 120px;
 }
 
 .logo {
     cursor: pointer;
-    max-width: 150px;
+    max-width: 130px;
 }
 
 .nav_links {
@@ -44,26 +51,26 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #CAC4CE;
+    color: #878d97;
 }
 
 button {
-    font-family: "Raleway", sans-serif;
+    font-family: Ginger Bold ;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 13px;
     text-decoration: none;
     margin-left: 20px;
     padding: 9px 25px;
-    color: #706BA0;
-    background-color: rgba(255, 238, 242, 1);
+    color: #233453;
+    background-color: #bcbcc2;
     border: none;
-    border-radius: 50px;
+    border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: #CAC4CE;
+    background-color: #b8b8bd;
     transform: scale(1.2);
 }
 
@@ -77,8 +84,8 @@ button:hover {
 .intro img {
 	height: auto;
 	width: 430px;
-	border-radius: 30px;
-	border: 5px solid rgba(255, 238, 242, 1);
+	border-radius: 50%;
+	border: 10px solid #233453;
 }
 
 .main-intro {
@@ -95,15 +102,15 @@ button:hover {
 }
 
 .intro-text h1 {
-	color: rgba(255, 238, 242, 1);
-	font-family: 'Raleway', sans-serif;
+	color: #415a77;
+	font-family: 'Ginger Bold', Arial, sans-serif;
 	font-size: 75px;
 	margin-bottom: 20px;
 }
 
 .intro-text h2 {
-	color: rgba(255, 238, 242, 1);
-	font-family: 'Raleway', sans-serif;
+	color: #415a77;
+	font-family: 'Ginger Regular', Arial, sans-serif;
 	letter-spacing: 2px;
 	font-size: 35px;
 	margin-bottom: 35px;
@@ -131,11 +138,11 @@ button:hover {
 	padding: 100px 0px;
 }
 .title h2{
-	color: rgba(255, 238, 242, 1);
+	color: #415a77;
     font-family: 'Raleway', sans-serif;
 	font-size: 75px;
 	width: 1130px;
-	margin: 30px auto;
+	margin: 40px auto;
 	text-align: center;
 }
 .box{
@@ -146,15 +153,16 @@ button:hover {
 	min-height: 400px;
 }
 .card{
-	height: 365px;
-	width: 335px;
+	height: 265px;
+	width: 365px;
 	padding: 20px 35px;
 	background-color: #171931;
-	border-radius: 20px;
+	border-radius: 15px;
 	margin: 15px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+	display: inline-block;
 }
 
 h5{
@@ -163,27 +171,48 @@ h5{
 	font-size: 23px;
 	margin-bottom: 15px;
 }
+
+.text-btn {
+	background-color: #171931;
+}
+
 .text-btn p{
     background-color: #171931;
 	color: #CAC4CE;
 	font-size: 16px;
 	line-height: 27px;
-    padding-bottom: 60px;
+    padding-bottom: 15px;
 }
-.card .button{
-	background-color: rgba(255, 238, 242, 1);
-	color: #706BA0;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: 500;
-	padding: 9px 22px;
-	border-radius: 30px;
-	transition: all 0.3s ease 0s;
+
+.card .button {
+    font-family: Ginger Bold ;
+	width: auto;
+	height: 100%;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 9px 25px;
+    color: #233453;
+    background-color: #bcbcc2;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+	margin-top: 100px;
 }
-.card .button:hover{
-	background-color: #CAC4CE;
-	cursor: pointer;
-	font-weight: 500;
+
+.card .button:hover {
+    background-color: #b8b8bd;
+    transform: scale(1.2);
+}
+
+.aquabot img {
+	height: 150px;
+	width: 150px;
+	border-radius: 0%;
+	background-color: #171931;
+	display: flex;
+	justify-content: left;
+	align-items: left;
 }
 
 /* About Me starts here */
@@ -216,14 +245,14 @@ h5{
 }
 
 .about-text h1 {
-	color: rgba(255, 238, 242, 1);
+	color: #415a77;
 	font-family: 'Raleway', sans-serif;
 	font-size: 75px;
 	margin-bottom: 20px;
 }
 
 .about-text h2 {
-	color: rgba(255, 238, 242, 1);
+	color: #415a77;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
 	font-size: 35px;
@@ -231,7 +260,7 @@ h5{
 }
 
 .about-text p {
-	color:rgba(255, 238, 242, 1);
+	color:#415a77;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1px;
 	line-height: 28px;
@@ -301,5 +330,5 @@ h5{
 	text-align: center;
 	font-size: 13px;
 	font-family: 'Raleway', sans-serif;
-	color: #aaa;
+	color: #415a77;
 }

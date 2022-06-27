@@ -156,7 +156,7 @@ button:hover {
 	height: 265px;
 	width: 365px;
 	padding: 20px 35px;
-	background-color: #171931;
+	background-color: #233453;
 	border-radius: 15px;
 	margin: 15px;
 	position: relative;
@@ -166,18 +166,18 @@ button:hover {
 }
 
 h5{
-    background-color: #171931;
+    background-color: #233453;
 	color: #CAC4CE;
 	font-size: 23px;
 	margin-bottom: 15px;
 }
 
 .text-btn {
-	background-color: #171931;
+	background-color: #233453;
 }
 
 .text-btn p{
-    background-color: #171931;
+    background-color: #233453;
 	color: #CAC4CE;
 	font-size: 16px;
 	line-height: 27px;

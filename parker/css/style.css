@@ -1,7 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 * {
     background-color: #131518;
+    margin: 0;
+    padding: 0;
 }
 
 .rectangle{
@@ -25,7 +27,7 @@
     background-color: #3a514a ;
     border-radius: 15px;
     margin: 15px;
-    position: fixed;
+    position: absolute;
     text-align: center;
     display: block;
     border: #21362f 0.8rem solid;
@@ -116,7 +118,7 @@ ul li a:hover img {
     .left-card {
         width: 250px;
         height: 420px;
-        position: fixed;
+        position: absolute;
         margin-top: 1105px;
     }
 }
@@ -140,7 +142,7 @@ ul li a:hover img {
     .right-card {
         width: 250px;
         height: 390px;
-        position: fixed;
+        position: absolute;
         margin-top: 2070px;
         margin-right: 15px;
     }
@@ -198,4 +200,4 @@ ul li a:hover img {
 
 a {
     background-color: #3a514a;
-} */
+}

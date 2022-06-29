@@ -4,16 +4,6 @@
     background-color: #131518;
 }
 
-body {
-    /*allow scrolling for mobile devices */
-    overflow-x: hidden;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-}
-
 .rectangle{
     width: 100%;
     position: absolute;
@@ -36,7 +26,6 @@ body {
     border-radius: 15px;
     margin: 15px;
     position: fixed;
-    overflow: hidden;
     text-align: center;
     display: block;
     border: #21362f 0.8rem solid;
@@ -63,7 +52,6 @@ h5{
     .left-card h5 {
         padding-right: 600px;
         width: 347px !important;
-        overflow: hidden !important;
         word-wrap: break-word !important;
     }
 }
@@ -119,7 +107,6 @@ ul li a:hover img {
     margin: 10px;
     margin-top: 930px;
     position: relative;
-    overflow: hidden;
     text-align: center;
     display: inline-block;
     border: #21362f 0.8rem solid;
@@ -144,7 +131,6 @@ ul li a:hover img {
     margin-top: 930px;
     margin-left: 15px;
     position: relative;
-    overflow: hidden;
     text-align: center;
     display: inline-block;
     border: #21362f 0.8rem solid;

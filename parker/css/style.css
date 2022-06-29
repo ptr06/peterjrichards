@@ -40,6 +40,13 @@
     }
 }
 
+@media (max-width: 970px) {
+    .main-card h5{
+        margin-left: -7px;
+    }
+}
+
+
 h5{
     font-family: 'Source Sans Pro';
     color: whitesmoke;

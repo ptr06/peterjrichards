@@ -2,8 +2,6 @@
 
 * {
     background-color: #131518;
-    margin: 0;
-    padding: 0;
 }
 
 .rectangle{
@@ -28,6 +26,7 @@
     border-radius: 15px;
     margin: 15px;
     position: absolute;
+    overflow: hidden;
     text-align: center;
     display: block;
     border: #21362f 0.8rem solid;
@@ -54,6 +53,7 @@ h5{
     .left-card h5 {
         padding-right: 600px;
         width: 347px !important;
+        overflow: hidden !important;
         word-wrap: break-word !important;
     }
 }
@@ -109,6 +109,7 @@ ul li a:hover img {
     margin: 10px;
     margin-top: 930px;
     position: relative;
+    overflow: hidden;
     text-align: center;
     display: inline-block;
     border: #21362f 0.8rem solid;
@@ -133,6 +134,7 @@ ul li a:hover img {
     margin-top: 930px;
     margin-left: 15px;
     position: relative;
+    overflow: hidden;
     text-align: center;
     display: inline-block;
     border: #21362f 0.8rem solid;
